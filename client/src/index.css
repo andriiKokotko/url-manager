@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiButton-root.submit {
+  width: 100%;
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  background: linear-gradient(309deg, #f0b157 21%, #fb7351 100%);
+  color: #fff;
+  align-self: stretch;
+}
+
+.MuiFormControl-root.text-field {
+  margin-bottom: 1rem;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #fb7351!important;
+}
+
+.MuiInput-underline::after {
+  border-bottom-color: #fb7351!important;
+}
+
+.MuiInput-underline.Mui-error:after {
+  border-bottom-color: #f44336!important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #fb7351!important;
+}

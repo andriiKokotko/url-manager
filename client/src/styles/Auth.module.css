@@ -1,0 +1,13 @@
+.form {
+  max-width: 182px;
+  margin: 0 auto;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  margin: 4rem auto 0;
+}
